@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ruman Arshad — GitHub profile banner</title>
+  <desc id="desc">Animated midnight editorial banner for Ruman Arshad, BS Artificial Intelligence student at Superior University, focused on Python, web and visual design.</desc>
+
+  <style>
+    :root {
+      --ink: #08111F;
+      --paper: #F3F1EA;
+      --muted: #A9B5C8;
+      --cobalt: #3478F6;
+      --cyan: #48D4D0;
+      --warm: #F0B84A;
+      --rule: #20304A;
+    }
+
+    .name {
+      animation: nameReveal 14s cubic-bezier(.2,.8,.2,1) infinite;
+      transform-origin: 58px 112px;
+    }
+    .name-sweep {
+      animation: nameSweep 14s cubic-bezier(.2,.8,.2,1) infinite;
+      transform-origin: 58px 84px;
+    }
+    .degree {
+      animation: lineIn 14s cubic-bezier(.2,.8,.2,1) infinite;
+      transform-origin: 58px 162px;
+    }
+    .skills {
+      animation: skillsIn 14s cubic-bezier(.2,.8,.2,1) infinite;
+      transform-origin: 58px 216px;
+    }
+    .skill-python { animation: pythonFocus 14s ease infinite; }
+    .skill-web { animation: webFocus 14s ease infinite; }
+    .skill-design { animation: designFocus 14s ease infinite; }
+    .skill-cursor {
+      animation: cursorMove 14s cubic-bezier(.55,0,.2,1) infinite;
+      transform-origin: 58px 233px;
+    }
+    .progress {
+      animation: progress 14s linear infinite;
+      transform-origin: 58px 257px;
+    }
+    .field-a, .field-b {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .field-a { animation: fieldA 18s ease-in-out infinite; }
+    .field-b { animation: fieldB 22s ease-in-out infinite; }
+    .field-line { animation: fieldLine 20s ease-in-out infinite; }
+    .warm-mark { animation: warmMark 9s ease-in-out infinite; }
+
+    @keyframes nameReveal {
+      0%, 4% { clip-path: inset(0 100% 0 0); opacity: .25; }
+      16%, 91% { clip-path: inset(0 0 0 0); opacity: 1; }
+      98%, 100% { clip-path: inset(0 0 0 0); opacity: 0; }
+    }
+    @keyframes nameSweep {
+      0%, 3% { transform: translateX(0); opacity: 0; }
+      5% { opacity: 1; }
+      16% { transform: translateX(538px); opacity: 1; }
+      19%, 100% { transform: translateX(556px); opacity: 0; }
+    }
+    @keyframes lineIn {
+      0%, 11% { transform: translateY(11px); opacity: 0; }
+      20%, 92% { transform: translateY(0); opacity: 1; }
+      98%, 100% { transform: translateY(0); opacity: 0; }
+    }
+    @keyframes skillsIn {
+      0%, 17% { transform: translateY(10px); opacity: 0; }
+      27%, 93% { transform: translateY(0); opacity: 1; }
+      98%, 100% { transform: translateY(0); opacity: 0; }
+    }
+    @keyframes pythonFocus {
+      0%, 26%, 48%, 100% { fill: var(--paper); }
+      29%, 43% { fill: var(--cyan); }
+    }
+    @keyframes webFocus {
+      0%, 39%, 62%, 100% { fill: var(--paper); }
+      44%, 57% { fill: var(--cyan); }
+    }
+    @keyframes designFocus {
+      0%, 53%, 76%, 100% { fill: var(--paper); }
+      58%, 71% { fill: var(--cyan); }
+    }
+    @keyframes cursorMove {
+      0%, 25% { transform: translateX(0) scaleX(1); opacity: 0; }
+      29%, 42% { transform: translateX(0) scaleX(1); opacity: 1; }
+      46%, 56% { transform: translateX(158px) scaleX(.55); opacity: 1; }
+      60%, 72% { transform: translateX(268px) scaleX(1.7); opacity: 1; }
+      78%, 100% { transform: translateX(430px) scaleX(.5); opacity: 0; }
+    }
+    @keyframes progress {
+      0% { transform: scaleX(0); opacity: .35; }
+      90% { transform: scaleX(1); opacity: 1; }
+      96%, 100% { transform: scaleX(1); opacity: 0; }
+    }
+    @keyframes fieldA {
+      0%, 100% { transform: translate(-5px, 2px) rotate(-2deg); }
+      50% { transform: translate(8px, -5px) rotate(1deg); }
+    }
+    @keyframes fieldB {
+      0%, 100% { transform: translate(5px, -2px) rotate(2deg); }
+      50% { transform: translate(-7px, 5px) rotate(-1deg); }
+    }
+    @keyframes fieldLine {
+      0%, 100% { transform: translateY(4px); opacity: .72; }
+      50% { transform: translateY(-6px); opacity: 1; }
+    }
+    @keyframes warmMark {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(12px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .name, .name-sweep, .degree, .skills, .skill-python, .skill-web,
+      .skill-design, .skill-cursor, .progress, .field-a, .field-b,
+      .field-line, .warm-mark {
+        animation: none !important;
+        clip-path: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      .name-sweep, .skill-cursor { display: none; }
+    }
+  </style>
+
+  <rect width="1200" height="300" fill="#08111F"/>
+
+  <!-- Restrained page structure -->
+  <path d="M58 39H707" stroke="#20304A" stroke-width="1"/>
+  <path d="M58 258H707" stroke="#20304A" stroke-width="1"/>
+  <rect x="58" y="36" width="45" height="6" fill="#3478F6"/>
+  <rect x="103" y="36" width="15" height="6" fill="#F0B84A"/>
+
+  <!-- Text sequence -->
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text class="name" x="58" y="119" fill="#F3F1EA" font-size="60" font-weight="800" letter-spacing="-1.8">RUMAN ARSHAD</text>
+    <rect class="name-sweep" x="58" y="67" width="7" height="61" fill="#48D4D0"/>
+
+    <text class="degree" x="60" y="166" fill="#A9B5C8" font-size="21" font-weight="600" letter-spacing=".15">BS ARTIFICIAL INTELLIGENCE · SUPERIOR UNIVERSITY</text>
+
+    <g class="skills" font-size="25" font-weight="700" letter-spacing="1.45">
+      <text class="skill-python" x="60" y="222" fill="#F3F1EA">PYTHON</text>
+      <text x="184" y="222" fill="#53627A">/</text>
+      <text class="skill-web" x="216" y="222" fill="#F3F1EA">WEB</text>
+      <text x="294" y="222" fill="#53627A">/</text>
+      <text class="skill-design" x="326" y="222" fill="#F3F1EA">VISUAL DESIGN</text>
+    </g>
+    <rect class="skill-cursor" x="58" y="235" width="100" height="3" rx="1.5" fill="#3478F6"/>
+    <rect class="progress" x="58" y="256" width="649" height="2" fill="#48D4D0"/>
+  </g>
+
+  <!-- Slow abstract field: broad forms, no symbols -->
+  <g>
+    <path class="field-a" d="M820 45H1159V245H820Z" fill="none" stroke="#183561" stroke-width="36"/>
+    <path class="field-b" d="M930 15C1040 34 1132 103 1211 220" fill="none" stroke="#10284C" stroke-width="72" stroke-linecap="square"/>
+    <path class="field-line" d="M770 248C847 214 874 162 945 151C1025 139 1036 82 1105 61C1141 50 1172 56 1215 33" fill="none" stroke="#3478F6" stroke-width="4" stroke-linecap="round"/>
+    <path class="field-line" d="M770 266C849 232 884 184 949 173C1028 159 1053 106 1113 87C1148 76 1177 79 1218 56" fill="none" stroke="#48D4D0" stroke-width="2" stroke-linecap="round" opacity=".82"/>
+    <rect class="warm-mark" x="986" y="72" width="72" height="8" fill="#F0B84A"/>
+    <path d="M764 42V258" stroke="#20304A" stroke-width="1"/>
+  </g>
+</svg>
