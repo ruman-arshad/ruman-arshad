@@ -1,66 +1,60 @@
-<div align="center">
+<p align="center">
+  <img src="./profile-banner.svg" alt="Ruman Arshad — Artificial Intelligence student and developer" width="100%" />
+</p>
 
-# Hi, I'm Ruman Arshad 👋
+<p align="center">
+  <strong>Artificial Intelligence Student · Python & Flask Development · Web & Graphic Design</strong>
+</p>
 
-### BS Artificial Intelligence Student | Python Developer | AI/ML & Generative AI Learner
+<p align="center">
+  <a href="https://www.linkedin.com/in/ruman-arshad-578b50407/">
+    <img src="https://img.shields.io/badge/LinkedIn-Ruman_Arshad-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Ruman Arshad on LinkedIn" />
+  </a>
+</p>
 
-Building practical projects at the intersection of software, artificial intelligence, and design.
+## Profile
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruman-arshad-578b50407/)
+I am studying BS Artificial Intelligence at **Superior University** and building practical projects with **Python, Flask, HTML, and SQLite**. My interests also include web development and graphic design, while my current studies are expanding into **AI/ML** and **Generative AI**.
 
-</div>
+I’m currently open to internship opportunities where I can learn from experienced teams and contribute to real projects.
 
-## 👨‍💻 About Me
+## Technical focus
 
-- 🎓 BS Artificial Intelligence student at **Superior University**
-- 💻 Building practical projects using **Python, Flask and web technologies**
-- 🤖 Learning **Artificial Intelligence, Machine Learning and Generative AI**
-- 🎨 Interested in **web development and graphic design**
-- 🌱 Continuously improving my programming and problem-solving skills
-- 🤝 Open to internships in Python, AI/ML, Generative AI and software development
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,html,sqlite,java&perline=5" alt="Python, Flask, HTML, SQLite, and Java" />
+</p>
 
-## 🛠️ Skills & Technologies
+**Application development:** Python · Flask · SQLite  
+**Web and design:** HTML · Web development · Graphic design  
+**Foundation:** Java basics
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![AI/ML](https://img.shields.io/badge/AI%2FML-6C63FF?style=flat-square)
-![Generative AI](https://img.shields.io/badge/Generative_AI-8A2BE2?style=flat-square)
-![Graphic Design](https://img.shields.io/badge/Graphic_Design-FF61F6?style=flat-square)
+## Selected work
 
-## 🚀 Featured Projects
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <sub>01 / GENERATIVE AI</sub>
+      <h3>ProtoGen AI</h3>
+      <p>An AI game generator built with the Groq LLM.</p>
+      <p><code>Generative AI</code> <code>Groq LLM</code></p>
+      <a href="https://github.com/ruman-arshad/protogen-ai"><strong>Explore project →</strong></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <sub>02 / WEB APPLICATION</sub>
+      <h3>Library Management System</h3>
+      <p>A library management project developed with Python and Flask.</p>
+      <p><code>Python</code> <code>Flask</code></p>
+      <a href="https://github.com/ruman-arshad/Library-Management-system."><strong>Explore project →</strong></a>
+    </td>
+  </tr>
+</table>
 
-### 🎮 ProtoGen AI
+## Current direction
 
-An AI-powered game generator that uses the Groq LLM to transform user prompts into interactive game experiences.
+Learning AI/ML and Generative AI while continuing to improve my Python, Flask, and web development work through projects.
 
-[View Repository](https://github.com/ruman-arshad/protogen-ai)
+## Contact
 
-### 📚 Library Management System
-
-A responsive Library Management System built with Python and Flask, featuring role-based dashboards, live book searching, automated circulation and a modern interface.
-
-[View Repository](https://github.com/ruman-arshad/Library-Management-system.)
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-![Ruman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ruman-arshad&show_icons=true&hide_border=true&theme=transparent)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ruman-arshad&layout=compact&hide_border=true&theme=transparent)
-
-</div>
-
-## 🤝 Open to Opportunities
-
-I am open to internship opportunities where I can gain practical experience, contribute to real projects and grow as a developer.
-
-## 📫 Connect With Me
-
-[LinkedIn](https://www.linkedin.com/in/ruman-arshad-578b50407/)
+The best place to reach me is [LinkedIn](https://www.linkedin.com/in/ruman-arshad-578b50407/).
