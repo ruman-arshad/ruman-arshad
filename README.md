@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="./profile-banner.svg" alt="Ruman Arshad — Artificial Intelligence student and developer" width="100%" />
+  <img src="./assets/banner.gif" alt="Ruman Arshad — Artificial Intelligence student and developer" width="100%" />
+  <img src="./assets/typing.gif" alt="Python and Flask Development — Exploring AI and Machine Learning" width="100%" />
 </p>
 
 <p align="center">
@@ -8,7 +9,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ruman-arshad-578b50407/">
-    <img src="https://img.shields.io/badge/LinkedIn-Ruman_Arshad-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Ruman Arshad on LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Ruman_Arshad-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white" alt="Ruman Arshad on LinkedIn" />
   </a>
 </p>
 
@@ -21,7 +22,7 @@ I’m currently open to internship opportunities where I can learn from experien
 ## Technical focus
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,html,sqlite,java&perline=5" alt="Python, Flask, HTML, SQLite, and Java" />
+  <img src="https://skillicons.dev/icons?i=python,flask,html,sqlite,java&amp;perline=5" alt="Python, Flask, HTML, SQLite, and Java" />
 </p>
 
 **Application development:** Python · Flask · SQLite  
